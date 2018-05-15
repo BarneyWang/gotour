@@ -1,8 +1,8 @@
 package main
 
 import (
-	"strings"
 	"fmt"
+	"strings"
 )
 
 // var c, python, java bool
@@ -46,7 +46,11 @@ func main() {
 	// for i := 1; i <= 100; i++ {
 	// 	defer fmt.Println(i)
 	// }
-	fmt.Println("done")
+	var a int = 1
+	var b *int = &a
+	fmt.Println("a =", a)
+	fmt.Println("b=", b)
+	// fmt.Println("done")
 
 	// i, j := 42, 2701
 
